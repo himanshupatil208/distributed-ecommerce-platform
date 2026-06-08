@@ -17,9 +17,9 @@ Client
 API Gateway (Spring Cloud Gateway - MVC RouterFunction)
    ↓
 ---------------------------------------------------
-| Product Service   → http://localhost:8080       |
-| Order Service     → http://localhost:8081       |
-| Inventory Service → http://localhost:8082       |
+   Product Service   → http://localhost:8080       
+   Order Service     → http://localhost:8081       
+   Inventory Service → http://localhost:8082       
 ---------------------------------------------------
 
 
