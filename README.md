@@ -11,16 +11,17 @@ The system uses Spring Cloud Gateway (MVC-based routing) with static service URL
 ## Architecture
 
 The system follows a microservices-based architecture:
-
+```text
 Client
    ↓
 API Gateway (Spring Cloud Gateway - MVC RouterFunction)
    ↓
 ---------------------------------------------------
-   Product Service   → http://localhost:8080       
-   Order Service     → http://localhost:8081       
-   Inventory Service → http://localhost:8082       
+| Product Service   → http://localhost:8080       |
+| Order Service     → http://localhost:8081       |
+| Inventory Service → http://localhost:8082       |
 ---------------------------------------------------
+```
 
 
 Note:
