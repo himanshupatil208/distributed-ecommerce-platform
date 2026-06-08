@@ -118,7 +118,7 @@ GET http://localhost:8080/api/inventory/
 ---
 
 ## Project Structure
-
+```text
 distributed-ecommerce-platform/
 │
 ├── api-gateway/
@@ -128,6 +128,7 @@ distributed-ecommerce-platform/
 │
 ├── README.md
 └── .gitignore
+```
 
 ---
 
